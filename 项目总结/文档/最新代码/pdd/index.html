@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>拼多多商城</title>
+    <link rel="stylesheet" href="/static/css/reset.css">
+    <style>
+      html{
+        font-size: 10px;
+      }
+      html, body{
+        width: 100%;
+        height: 100%;
+      }
+      body{
+        font-size: 1.4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+
+  <script src="/static/js/fastclick.js"></script>
+  <script>
+    // 解决点击3ms延迟
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMContentLoaded', function() {
+        FastClick.attach(document.body);
+      }, false);
+    }
+  </script>
+  </body>
+</html>
